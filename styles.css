@@ -141,7 +141,7 @@ a.work:hover{transform:translateY(-3px);box-shadow:0 22px 40px -26px rgba(66,16,
 /* contact */
 .contact{text-align:left;background:linear-gradient(180deg,var(--cream),#FCE3EE)}
 .c2 .btn{flex:1 1 220px}
-.links a{font-weight:500;color:var(--plum);text-decoration:none;border-bottom:2px solid var(--fuc)}
+.links a{overflow-wrap:anywhere;font-weight:500;color:var(--plum);text-decoration:none;border-bottom:2px solid var(--fuc)}
 .quote{margin-top:40px;background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:28px 22px;box-shadow:0 22px 40px -30px rgba(66,16,47,.45)}
 .quote h3{font-size:1.8rem}
 .qi{color:var(--soft)}
@@ -172,7 +172,7 @@ a.work:hover{transform:translateY(-3px);box-shadow:0 22px 40px -26px rgba(66,16,
  .pg{grid-template-columns:repeat(2,1fr)}
  .g4{grid-template-columns:repeat(2,1fr)}
  .steps{grid-template-columns:repeat(2,1fr)}
- .links{grid-template-columns:repeat(2,1fr)}
+ .links{grid-template-columns:repeat(3,1fr)}
  .f2{grid-template-columns:repeat(2,1fr)}
  .quote{padding:40px}
  .links li{flex-direction:column;gap:2px}
